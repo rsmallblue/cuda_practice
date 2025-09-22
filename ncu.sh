@@ -1,0 +1,1 @@
+ncu  --target-processes all --set full -f -o rmsnorm  ./a.out 
