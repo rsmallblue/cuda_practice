@@ -1,0 +1,1 @@
+nvcc sgemm1.cu -O3 -I${PWD}/../cutlass/include -I${PWD}/../cutlass/tools/util/include -std=c++17 -arch=compute_90a -code=sm_90a -lineinfo -Xptxas=--verbose -O3 -Xcompiler=-Wno-psabi -Xcompiler=-fno-strict-aliasing  --expt-relaxed-constexpr -DNDEBUG -lcuda

@@ -1,0 +1,16 @@
+ptxas info    : 45 bytes gmem
+ptxas info    : Compiling entry function '_ZN3cub17CUB_200802_SM_90011EmptyKernelIvEEvv' for 'sm_90a'
+ptxas info    : Function properties for _ZN3cub17CUB_200802_SM_90011EmptyKernelIvEEvv
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 4 registers, used 0 barriers
+ptxas info    : Compile time = 1.893 ms
+ptxas info    : Compiling entry function '_Z15rmsnorm_kernel0ILi8EEvPK6__halfS2_iifPS0_' for 'sm_90a'
+ptxas info    : Function properties for _Z15rmsnorm_kernel0ILi8EEvPK6__halfS2_iifPS0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 28 registers, used 1 barriers, 64 bytes smem
+ptxas info    : Compile time = 9.090 ms
+ptxas info    : Compiling entry function '_Z15rmsnorm_kernel1ILi8EEvPK6__halfS2_iifP15GlobalSyncStatePS0_' for 'sm_90a'
+ptxas info    : Function properties for _Z15rmsnorm_kernel1ILi8EEvPK6__halfS2_iifP15GlobalSyncStatePS0_
+    0 bytes stack frame, 0 bytes spill stores, 0 bytes spill loads
+ptxas info    : Used 26 registers, used 1 barriers, 64 bytes smem
+ptxas info    : Compile time = 12.578 ms

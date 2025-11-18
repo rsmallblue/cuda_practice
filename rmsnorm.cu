@@ -237,7 +237,7 @@ void check_diff(const thrust::host_vector<half> d_output, const thrust::host_vec
 
 
 int main() {
-    const int M = 33;
+    const int M = 330;
     const int N = 65536;
     
 
